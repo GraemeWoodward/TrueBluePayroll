@@ -1,0 +1,1 @@
+Copy Logo.png and heroimage.jpg into assets/ directory beside these files.
