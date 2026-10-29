@@ -100,6 +100,7 @@ box-shadow:0 4px 12px rgba(0,0,0,.15)}
 flex:1;
 min-width:300px}
 
+
 .contact-profile {
 display:flex;
 gap:25px;
@@ -162,3 +163,9 @@ width:100%}
 
 }
 
+.about-profile img.about-thumbnail {
+    width: 180px;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,.15);
+}
