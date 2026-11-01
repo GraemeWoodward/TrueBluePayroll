@@ -61,16 +61,18 @@ white-space:nowrap}
 
 .hero {
   background: #1a6f86 url("assets/heroimage.jpg") left center/cover no-repeat;
-  height: 520px;
+  height: 480px;
   display: flex;
   align-items: center;
 }
 
-/* For wide screens (1400px and up) */
-@media (min-width: 1400px) {
+/* For wide screens (1600 and up) */
+@media (min-width: 1600) {
   .hero {
     background: #1b6a82 url("assets/heroimage.jpg") center/cover no-repeat;
+  height: 640px;
   align-items: center;
+  aspect-ratio: 4 / 1;
   }
 }
 
