@@ -59,6 +59,8 @@ font-weight:bold;
 white-space:nowrap}
 
 
+/* Default for laptops and desktops up to 1920px wide */
+
 .hero {
   background: #1a6f86 url("assets/heroimage.jpg") left center/cover no-repeat;
   height: 480px;
@@ -66,13 +68,19 @@ white-space:nowrap}
   align-items: center;
 }
 
-/* For wide screens (1600 and up) */
-@media (min-width: 1600) {
+/* For wide screens (1601 to 2560) */
+@media (min-width: 1601px) {
   .hero {
-    background: #1b6a82 url("assets/heroimage.jpg") center/cover no-repeat;
-  height: 640px;
-  align-items: center;
-  aspect-ratio: 4 / 1;
+    background-image: url("assets/heroimageWide2560.jpg");
+    background-position: center center;
+  }
+}
+
+/* For ultra wide screens (>2560) */
+@media (min-width: 2561px) {
+  .hero {
+    background-image: url("assets/heroimageWide3840.jpg");
+    background-position: center center;
   }
 }
 

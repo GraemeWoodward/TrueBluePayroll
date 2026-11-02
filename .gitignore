@@ -2,3 +2,7 @@
 *.zip
 *.bak
 index_files/
+*.swp
+*.swo
+*~
+*.un~
