@@ -45,6 +45,7 @@ flex-wrap:wrap;
 gap:10px;
 align-items:center}
 
+
 nav a {
 color:#fff;
 text-decoration:none}
@@ -220,3 +221,9 @@ li::marker {
 strong {
 	color: #1a6f86;
 }
+
+/* Specifically targets the menu wrap ONLY on the homepage */
+.home-header .nav-wrap {
+  justify-content: flex-end;
+}
+
