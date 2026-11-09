@@ -24,5 +24,25 @@
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
    </url>
+      <url>
+      <loc>https://truebluepayroll.co.nz/employment-hero-consulting.html</loc>
+      <lastmod>2026-11-10</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://truebluepayroll.co.nz/payroll-audit-services.html</loc>
+      <lastmod>2026-11-10</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://truebluepayroll.co.nz/platform-selection-and-transition.html</loc>
+      <lastmod>2026-11-10</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+   </url>
 </urlset>
 
