@@ -218,8 +218,19 @@ li::marker {
   color: #1a6f86;
 }
 
+
+
 strong {
 	color: #1a6f86;
+}
+
+strong a {
+    color: inherit;
+    text-decoration: none;
+}
+
+strong a:hover {
+    text-decoration: underline;
 }
 
 /* Specifically targets the menu wrap ONLY on the homepage */
